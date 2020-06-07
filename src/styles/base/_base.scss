@@ -1,0 +1,18 @@
+html {
+    // It will make rem 10 based. Ex. 1.6 rem = 16 pixels
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $dark-blue;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
